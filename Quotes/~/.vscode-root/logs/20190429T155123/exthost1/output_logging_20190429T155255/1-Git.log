@@ -131,3 +131,10 @@ Open repository: /home/austin
 > git check-ignore -z --stdin
 > git check-ignore -z --stdin
 > git check-ignore -z --stdin
+> git show :Quotes/.gitignore
+> git check-ignore -z --stdin
+> git show :Quotes/src/app/quote-form/quote-form.component.html
+> git check-ignore -z --stdin
+> git show :Quotes/src/app/quote/quote.component.css
+> git check-ignore -z --stdin
+> git show :Quotes/README.md

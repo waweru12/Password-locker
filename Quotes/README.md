@@ -63,7 +63,7 @@ open the appscroll down pageTemplate quotes displayed
 GO to make quote columnType in the quote and nameNew quote appended to quotes
 click drop downA pallet is openedDetails about the quote displayed
 Click up vote thumbnumber of likes increasesQuote with highest likes highlighted
-Click down vote thumbNumber of dislikes increasesQuote with highest
+Click down vote thumbNumber of   dislikes increasesQuote with highest
 dislikes eliminated
 
 
