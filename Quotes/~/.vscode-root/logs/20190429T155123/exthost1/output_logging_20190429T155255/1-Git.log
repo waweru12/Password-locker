@@ -162,3 +162,5 @@ Open repository: /home/austin
 > git show :Quotes/src/app/vote/vote.component.spec.ts
 > git show :Quotes/src/app/vote/vote.component.html
 > git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote-form/quote-form.component.html
+> git show :Quotes/src/app/quote/quote.component.ts
