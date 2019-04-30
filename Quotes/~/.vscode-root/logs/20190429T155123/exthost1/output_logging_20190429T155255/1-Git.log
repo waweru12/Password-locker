@@ -138,3 +138,27 @@ Open repository: /home/austin
 > git show :Quotes/src/app/quote/quote.component.css
 > git check-ignore -z --stdin
 > git show :Quotes/README.md
+> git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote/quote.component.ts
+> git show :Quotes/src/app/quote/quote.component.html
+> git check-ignore -z --stdin
+> git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote/quote.component.ts
+> git show :Quotes/src/app/quote-form/quote-form.component.html
+> git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote-form/quote-form.component.html
+> git show :Quotes/src/app/quote/quote.component.html
+> git show :Quotes/src/styles.css
+> git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote/quote.component.ts
+> git show :Quotes/src/app/quote-form/quote-form.component.html
+> git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote/quote.component.ts
+> git show :Quotes/src/app/quote/quote.component.css
+> git show :Quotes/src/app/quote-form/quote-form.component.html
+> git show :Quotes/src/app/vote/vote.component.css
+> git show :Quotes/src/app/vote/vote.component.html
+> git show :Quotes/src/app/vote/vote.component.ts
+> git show :Quotes/src/app/vote/vote.component.spec.ts
+> git show :Quotes/src/app/vote/vote.component.html
+> git show :Quotes/src/app/quote/quote.component.css
