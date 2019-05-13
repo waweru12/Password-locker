@@ -62,4 +62,20 @@ def austin1():
   if answer == "yes":
     print("Okay.Press 1 to continue.")
     one = input()
-   
+    if one == "1":
+      print("Welcome to password-locker.Would you like to sign up/log in")
+      print("Press 1 = sign up / Press 2 = log in / Press 3 = exit")
+      logorsign = input()
+      if logorsign == "1":  
+        print("Awesome!Please enter your preffered username.")
+        username = input()
+        print("Enter a preffered password.")
+        password1 = getpass.getpass("password:")
+        print("Confirm your password please.")
+        password2 = getpass.getpass("password:")
+        if password1 == password2:
+          print("New user: " + username + " created.")
+          print("*****Choose log in this time.*****")
+          save_user(create_user(username,password1)) 
+          austin1()
+       
