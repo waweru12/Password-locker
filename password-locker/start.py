@@ -78,4 +78,12 @@ def austin1():
           print("*****Choose log in this time.*****")
           save_user(create_user(username,password1)) 
           austin1()
-       
+        else:
+          print("Sorry passwords don't match.")  
+          mitch1()
+      elif logorsign == "2":
+        print("Enter your username.")
+        username = input()
+        print("Enter your password.")
+        password3 = getpass.getpass("password:") 
+        
