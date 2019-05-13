@@ -63,7 +63,7 @@ def austin1():
     print("Okay.Press 1 to continue.")
     one = input()
     if one == "1":
-      print("Welcome to password-locker.Would you like to sign up/log in")
+      print("Welcome to password-locker.Would you ..like to sign up/log in")
       print("Press 1 = sign up / Press 2 = log in / Press 3 = exit")
       logorsign = input()
       if logorsign == "1":  
