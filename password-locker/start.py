@@ -55,7 +55,7 @@ def display_credentials():
     return User.display_users()
 
 def austin():
-  print("The password-locker.")
+  print("WELCOME TO PASSWORD-LOCKER.")
 def austin1():  
   print("Would you like to continue? (yes/no)")
   answer = input() 
@@ -80,7 +80,7 @@ def austin1():
           austin1()
         else:
           print("Sorry passwords don't match.")  
-          mitch1()
+          austin1()
       elif logorsign == "2":
         print("Enter your username.")
         username = input()
@@ -109,7 +109,7 @@ def austin1():
                 save_credentials(create_credentials(account_name,password))
               elif legacy == "2":
                 if display_credentials:
-                  print("Here's a list of your credentials")
+                  print("Here is a list of all your accounts and passwords")
                   for Credentials in display_credentials():
                     print(f"Account name: {Credentials.account_name}  // password: {Credentials.password}")
               elif legacy == "3":
@@ -119,20 +119,20 @@ def austin1():
                   Credentials.credentials_list.remove(Credentials)
                   print("Credential deleted")
                 else:
-                  print("Credentials dont match")   
+                  print("No match of such a credential")   
         else:
           print("Incorrect password.Try again.")             
       elif logorsign == "3":
         exit()
     else:
-      print("Awesome.Please press 1")  
+      print("Are you that stupid.Please press 1")  
       austin1()
   elif answer == "no":
-    print("Thanks trying out this app.")
+    print("Thanks for using our application.we hope to see you again.")
   else:
     print("Invalid choice.Try again.")  
     austin1()
 
 if __name__ == '__main__':
   austin()
-  ()
+  austin1()
