@@ -54,3 +54,12 @@ def display_credentials():
     '''
     return User.display_users()
 
+def austin():
+  print("The password-locker.")
+def austin1():  
+  print("Would you like to continue? (yes/no)")
+  answer = input() 
+  if answer == "yes":
+    print("Okay.Press 1 to continue.")
+    one = input()
+   
