@@ -86,4 +86,53 @@ def austin1():
         username = input()
         print("Enter your password.")
         password3 = getpass.getpass("password:") 
-        
+        if check_existing_user(password3):
+            search_account = find_account(password3)
+            while True:
+              print(f"welcome  {search_account.username}")
+              print("Press 1 = New credential. / Press 2 = View existing credentials / Press 3 = Delete credentials.")
+              legacy = input()
+              if legacy == "1":
+                print("Enter account name.")
+                account_name = input()
+                print("Press 1 = Generate a password / Press 2 = To make your own password.")
+                passwrd = input()
+                if passwrd == "1":
+                  letters = string.ascii_letters + string.digits
+                  genpassword = ''.join(random.choice(letters) for i in range(9))
+                  print(f"Your new generated password is: {genpassword} ")
+                  password = genpassword 
+                elif passwrd == "2":
+                  print("Enter account password.")
+                  password = input()
+                  print(f"{account_name} +  has been successfully saved")
+                save_credentials(create_credentials(account_name,password))
+              elif legacy == "2":
+                if display_credentials:
+                  print("Here's a list of your credentials")
+                  for Credentials in display_credentials():
+                    print(f"Account name: {Credentials.account_name}  // password: {Credentials.password}")
+              elif legacy == "3":
+                print("Which credential would you like to delete?")
+                delaccount = input()
+                if delaccount == account_name:
+                  Credentials.credentials_list.remove(Credentials)
+                  print("Credential deleted")
+                else:
+                  print("Credentials dont match")   
+        else:
+          print("Incorrect password.Try again.")             
+      elif logorsign == "3":
+        exit()
+    else:
+      print("Awesome.Please press 1")  
+      austin1()
+  elif answer == "no":
+    print("Thanks trying out this app.")
+  else:
+    print("Invalid choice.Try again.")  
+    austin1()
+
+if __name__ == '__main__':
+  austin()
+  ()
